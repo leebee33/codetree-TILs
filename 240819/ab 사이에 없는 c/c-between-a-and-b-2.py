@@ -1,5 +1,4 @@
-arr=input().split()
-a,b,c = int(arr[0]), int(arr[1]), int(arr[2])
+a,b,c=map(int,input().split())
 
 satisfied = True
 for i in range (a,b+1):
